@@ -12,6 +12,8 @@ export default function Clientes() {
 
       <Link  href="/">Página Inicial</Link><br/>
       <Link  href="/fundamentos">Fundamentos</Link><br/>
+
+      
       
       <Table striped bordered hover>
       <thead>
