@@ -1,0 +1,45 @@
+Usar next.js para o react
+installation - start a new react project
+
+//Criand projeto com nextjs
+npx create-next-app@latest
+
+atualizar node - npm i -g npm 
+
+ cmd cd Desktop>cd "nome da pasta"
+
+aplicar o npx create-next-app@latest
+
+sequência criação do projeto (Após criar o nome) 
+No,No,No,Sim,Sim e No
+
+EX :√ What is your project named? ... fundamentos
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like to use `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to customize the default import alias (@/*)? ... No / Yes
+Creating a new Next.js app in C:\Users\23114290140\Desktop\Frontend\fundamentos.
+
+abrir a pasta direto no VScode
+
+C:\Users\23114290140\Desktop\Frontend>code fundamentos
+
+npm run dev (executa o projeto)
+
+snippet extensao
+
+export default - deixa visivel para outras páginas
+
+Ctrl + espaço, define (para importar)
+
+react bootstrap 
+npm install react-bootstrap bootstrap
+
+CSS
+import 'bootstrap/dist/css/bootstrap.min.css';  
+muda o visual da escrita da página
+
+props -> altera o nome determinado na tag componente
+props(propriedade)
