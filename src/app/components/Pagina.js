@@ -14,7 +14,7 @@ export default function Pagina(props) {
                 </Container>
             </Navbar>
 
-            <div className="bg-secondary text-white text-center p-3">
+            <div className="bg-secondary text-white text-center p-">
                 <h1>{props.titulo}</h1>
             </div>
 
