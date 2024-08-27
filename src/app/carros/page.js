@@ -24,10 +24,10 @@ export default function Carros() {
        
             <br>
             </br>
-            <Row>
+            <Row className="mx-auto">   
                 {carros.map(car => (
-                    <Col md={3} key={car.id} className="mb-4">
-                        <Card style={{ width: '18rem', height: '18rem' }}>
+                    <Col md={3} key={car.id} className="mb-3 mt-4">
+                        <Card style={{ width: '16rem', height: '16rem' }}>
                             <Card.Img variant="top" src={car.foto}/>
                             <Card.Body className="d-flex flex-column justify-content-between">
                                 <div>
