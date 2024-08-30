@@ -10,11 +10,11 @@ export default function Page() {
     const [contar, setContar] = useState(0)
 
     function soma(){
-        setContar  (prevContar => prevContar + 1 ) 
+        setContar  (contar + 1 ) 
     }
 
     function subtrair(){
-        setContar (prevContar => prevContar - 1 ) 
+        setContar (contar - 1 ) 
     }
     
 
