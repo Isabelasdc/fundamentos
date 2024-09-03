@@ -28,7 +28,7 @@ export default function Page() {
       </thead>
            {personagens.map(item => (
       <tbody>
-        <tr>
+        <tr key={item._id}>
           <td>{item._id}</td>
           <td>{item.name}</td>
           <img src={item.imageUrl}></img>

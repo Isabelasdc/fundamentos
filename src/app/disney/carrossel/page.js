@@ -21,7 +21,7 @@ export default function Page() {
             <Carousel>
             {personagens.map(item => (
                 <Carousel.Item>
-                    <img src={item.imageUrl} width="90%"></img>
+                    <img src={item.imageUrl} width="100%"></img>
                     <Carousel.Caption>
                         <h3>{item.name}</h3>
                     </Carousel.Caption>
